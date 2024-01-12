@@ -11,7 +11,7 @@ cor(x, y) # correlación entre las variables
 
 # 3. Definición del modelo lineal
 
-modelo_lineal <- lm(y ~ 0 + x) # no hay intercepto
+modelo_lineal <- lm(y ~ x) # hay intercepto
 summary_modelo <- summary(modelo_lineal)
 
 # 4. Resultados del modelo y análisis
